@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Streamlit
+.streamlit/
+streamlit_server.log
+
+# Temporary files
+*.tmp
+*.temp
+temp_image*.jpg
+*.log
+nohup.out
+
+# Model files (optional - uncomment if you want to exclude)
+# *.keras
+# *.h5
+# *.model
+
+# Data files (optional - uncomment if you want to exclude)
+# Labels/
+# Input Images/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Test results
+test_results/
+recognition_results.txt
+segmentation_results.json
+sentence_generation_example.json
+
+# Backup files
+*_backup.py
+*.bak
+
